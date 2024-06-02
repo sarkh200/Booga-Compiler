@@ -6,6 +6,7 @@
     <RootNamespace>Booga_Compiler</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>boogac</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

@@ -7,7 +7,7 @@
 		{
 			if (args.Length < 1)
 			{
-				Console.Error.WriteLine("Enter the path to the file");
+				Console.Error.WriteLine("Error: path to code not specified\nusage: boogac <path> [-c <assembly-name>]\n\nDefault behavior is to interpret the specified booga code, but the - c flag will compile the code into a c file");
 				return;
 			}
 			if (!File.Exists(args[0]))
